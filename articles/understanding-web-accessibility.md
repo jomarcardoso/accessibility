@@ -12,4 +12,9 @@ Web accessibility nowadays is often seen as merely following the WCAG recommenda
 
 ## 2. Development
 
-As I mentioned at the introduction of this article we have to understand the users of web and their possible disabilities to give the best experience that overcome their dificulties that are most present out of the internet. I am not going so deep in this the topic of people disabilities in this article, because I have already written an article about ["Understanding Functional Differences in Web Accessibility"](./the-users-pt.md)
+As I mentioned at the introduction of this article we have to understand the users of web and their possible disabilities to give the best experience that overcome their dificulties that are most present out of the internet. I am not going so deep in this the topic of people disabilities in this article, because I have already written an article about ["Understanding Functional Differences in Web Accessibility".](./the-users-pt.md) The text forward is sectioned by disability and each of them will have an summary of what that users need and after what you have to do give them this ideal experience.
+
+As mentioned in the introduction of this article, we need to understand web users and their potential disabilities to provide the best experience that helps overcome their difficulties, which often extend beyond the internet. I am not going to delve deeply into the topic of disabilities in this article, as I have already written about it in ["Understanding Functional Differences in Web Accessibility".](./the-users-pt.md) The text ahead is sectioned by disability, with each section providing a summary of what these users need and how to give them an ideal experience.
+
+### 2.1 Physical disability
+
