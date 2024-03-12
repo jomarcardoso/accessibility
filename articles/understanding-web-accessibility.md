@@ -12,10 +12,14 @@ Web accessibility nowadays is often seen as merely following the WCAG recommenda
 
 ## 2. Development
 
-As mentioned in the introduction of this article, we need to understand web users and their potential disabilities to provide the best experience that helps overcome their difficulties, which often extend beyond the internet. I am not going to delve deeply into the topic of disabilities in this article, as I have already written about it in ["Understanding Functional Differences in Web Accessibility".](./the-users-pt.md) The text ahead is sectioned by disability, with each section providing a summary of what these users need and how to give them an ideal experience.
+As mentioned in the introduction of this article, we need to understand web users and their potential disabilities to provide the best experience that helps overcome their difficulties, which often extend beyond the internet. I am not going to delve deeply into the topic of disabilities in this article, as I have already written about it in ["Understanding Functional Differences in Web Accessibility".](./the-users-pt.md) After you understand each of them, you will see that it is not necessary to have a huge manual or a list of rules to accommodate them, but rather to put yourself in their shoes.
+
+The text ahead is sectioned by disability, with each section providing a summary of what these users need and how to give them an ideal experience.
 
 ### 2.1 Physical disability
 
 These users may have limitations that decrease the precision of their arm and finger movements, and can include people with amputated limbs, partial or full paralysis. For desktop devices, some of them might use only the keyboard to navigate, or another restrictive assistive technology depending on the disability. Smartphone users, in most cases, need elements on the screen to be large enough to touch without making mistakes.
 
-To cater to this audience, on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate
+To cater to this audience on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate. To simulate their experience, try navigating through the content using the arrow keys on your keyboard. Use the tab key to focus on controllers, press enter to activate them, and use the space key to check something or to reposition the screen scroll. Be creative: fill out forms, click on links, don't avoid opening modals, and check the experience there.
+
+
