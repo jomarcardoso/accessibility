@@ -12,9 +12,10 @@ Web accessibility nowadays is often seen as merely following the WCAG recommenda
 
 ## 2. Development
 
-As I mentioned at the introduction of this article we have to understand the users of web and their possible disabilities to give the best experience that overcome their dificulties that are most present out of the internet. I am not going so deep in this the topic of people disabilities in this article, because I have already written an article about ["Understanding Functional Differences in Web Accessibility".](./the-users-pt.md) The text forward is sectioned by disability and each of them will have an summary of what that users need and after what you have to do give them this ideal experience.
-
 As mentioned in the introduction of this article, we need to understand web users and their potential disabilities to provide the best experience that helps overcome their difficulties, which often extend beyond the internet. I am not going to delve deeply into the topic of disabilities in this article, as I have already written about it in ["Understanding Functional Differences in Web Accessibility".](./the-users-pt.md) The text ahead is sectioned by disability, with each section providing a summary of what these users need and how to give them an ideal experience.
 
 ### 2.1 Physical disability
 
+These users may have limitations that decrease the precision of their arm and finger movements, and can include people with amputated limbs, partial or full paralysis. For desktop devices, some of them might use only the keyboard to navigate, or another restrictive assistive technology depending on the disability. Smartphone users, in most cases, need elements on the screen to be large enough to touch without making mistakes.
+
+To cater to this audience, on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate
