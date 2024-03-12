@@ -5,3 +5,6 @@ With the evolution of the web, many features have been added, and the way to dev
 ## 1. Introduction
 
 At school, at least here in Brazil, the most common way to learn something is by rote memorization, and it makes sense since you don't have to use that learning for anything else but the test. I was always a kid who questioned a lot because I had a personal difficulty learning without understanding the subject 100%. It was common for me to interrupt the class when I was trying to understand something that my colleagues didn't realize they didn't know either, simply because they didn't need to deeply understand something to use it, especially in a test that would happen a few weeks later.
+
+I used to always try to understand the concept behind the rule or the trick when I found out that it was a rule. A trick that took me years to realize was in mathematics: in an equation, you can invert the operation and move a number to the other side of the equality. I was in college when a good teacher explained that it was only a trick, but under the hood, the operation is to perform the same operation on both sides of the equality, and the result of this is like sending a value to the other side with the reverse operation. I understood that the rule was a trick, and since then, I have been able to solve equations without risking misunderstanding the trick.
+
