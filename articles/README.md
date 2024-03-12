@@ -1,6 +1,6 @@
 # My article about Web acessbility
 
-- [Understanding Web acessibility](./understanding-web-accessibility.md)
+- [Understanding Web accessibility](./understanding-web-accessibility.md)
 
 ## Articles in Brazilian Portuguese
 
