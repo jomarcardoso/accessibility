@@ -20,6 +20,14 @@ The text ahead is sectioned by disability, with each section providing a summary
 
 These users may have limitations that decrease the precision of their arm and finger movements, and can include people with amputated limbs, partial or full paralysis. For desktop devices, some of them might use only the keyboard to navigate, or another restrictive assistive technology depending on the disability. Smartphone users, in most cases, need elements on the screen to be large enough to touch without making mistakes.
 
-To cater to this audience on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate. To simulate their experience, try navigating through the content using the arrow keys on your keyboard. Use the tab key to focus on controllers, press enter to activate them, and use the space key to check something or to reposition the screen scroll. Be creative: fill out forms, click on links, don't avoid opening modals, and check the experience there.
+To cater to this audience on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate. To simulate their experience, try navigating through the content using the arrow keys on your keyboard. Use the tab key to focus on controllers, press enter to activate them, and use the space key to check something or to reposition the screen scroll. Be creative: fill out forms, click on links, don't avoid opening modals, and check the experience. When a modal opens, the focus should move inside it and should not move outside until it is closed.
+
+To achieve all these requirements for desktop pages, you have to care about:
+
+- Keeping the native visible focus or handling it if desired (Bootstrap do this, they replace the outline by box-shadow).
+- Ensuring regions with scroll are themselves or the first item focusable, so users scrolling by keys can scroll these regions too.
+- Ensuring that when a modal opens, the focus moves inside it.
+- Implementing a focus trap inside the modal to keep the focus only there.
+- Focusing on the first element of new content when it is loaded without reloading the full page.
 
 
