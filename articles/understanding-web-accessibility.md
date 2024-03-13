@@ -65,7 +65,11 @@ The easiest way to create an accessible page for screen readers is to use native
 | ----------------------- | ----------------------------- |
 | ![native Edge datepicker open](https://github.com/jomarcardoso/accessibility/assets/27368585/5a3c9017-3fb3-4219-986b-b5febafea5a5) | ![custom W3C datepicker open](https://github.com/jomarcardoso/accessibility/assets/27368585/c98e2767-7488-4a44-af80-186f5c3efad5) |
 
+### 2.3 Intellectual disability
 
+Intellectual disabilities, like other disabilities, come in many forms. Users with low cognition require simple language and them erros must be clearly present to them to fix it at best way. Those with attention disorders should not be interrupted, so nothing should occur without their command, whether it's a click, touch, or button press. In all cases, it's also important to avoid creating overly long paragraphs, as they can cause confusion when transitioning to the next line. The W3C recommends a maximum of 200 characters per line.
+
+There is no way to simulate a mental disorder, but you can assess the general experience on your website using a heat map to identify areas where users may make mistakes. A/B tests and Likert scales can also be used to gather more information about the user experience on your website.
 
 
 
