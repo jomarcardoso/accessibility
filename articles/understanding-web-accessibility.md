@@ -35,12 +35,25 @@ To achieve all these requirements for desktop pages, you have to care about:
 
 For mobile devices, the main attention should be on the size of elements to reduce mis-touches, usually caused by aging or certain nerve diseases that cause shaking of limbs. There is no specific test for mobile devices that you can perform, but you should ensure that touchable elements have at least 44px of height and width, except when it is a link inside a text. Isolated links can be easily accessed without a user making a mistake.
 
-## 2.2 Visual impairment
+### 2.2 Visual impairment
 
 Visual impairment is a term used to describe any kind of vision loss, whether it's someone who cannot see at all or someone who has partial vision loss, such as clarity issues or color blindness.
 
 For those with color vision deficiency (color blindness), you can test by decreasing the saturation of the page using CSS filter: saturate(0). Everything on the page should still work without relying on colors. Pay attention to messages like form descriptions and errors; any text should be understandable without relying on color.
 
 Some people with vision loss use zoom to navigate on desktop pages and increase text size on mobile devices. Many of them also navigate using the keyboard since they can easily lose track of the cursor. To test their experience on a computer, apply 200% zoom, or on a smartphone, increase the text size. In both cases, scrolling should only occur in one direction.
+
+The most complex case to attend in the web are the blind users. The only way to test them experience is using a screen reader. 
+
+- Every relevant visual content must be pronounced by screen readers and at the same order.
+- The elements must be read like its visual. A button must be read like a button and a visual link read like a link.
+- Changes on the page must be announced.
+- Components with state must be read the currenct state. For example "accordion expanded" or "radio button checked".
+
+The web evoveld a lot with the new TAGS
+
+Nowadays there is no way to have a full accessible page without the use of [ARIA attributes.](https://www.w3.org/TR/wai-aria-1.2/) 
+
+
 
 
