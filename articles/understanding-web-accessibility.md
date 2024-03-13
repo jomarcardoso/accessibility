@@ -56,7 +56,6 @@ The web evoveld a lot with the new HTML atributes and semantic tags, but nowaday
 - `aria-label`: a message to read that complement the experience
 - `aria-expaded`: shows that the item has a menu open
 
-
-
+The easy way to create an accessible page for screen readers is to use semantic native elements to the maximum and only go to custom components when you or your company be ready to spend a lot of effort to make it better and event accessible. Elements like `select` also knowed like "combobox" is a native accessible element with all the features to navigate and be read by screen readers. Whether your team even want to make these complex components I recommend you to follow the official [W3C patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) with instructions and examples of components to follow.
 
 
