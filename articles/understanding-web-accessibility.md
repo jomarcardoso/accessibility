@@ -45,6 +45,9 @@ Some people with vision loss use zoom to navigate on desktop pages and increase 
 
 The most complex case to address in web accessibility is for blind users. The only way to test their experience is by using a screen reader and keyboard in desktop devices. The main points to consider are:
 
+- The page must have a title. This is useful for navigating between browser tabs.
+- Use the correct order of headings. Headings are used to identify different sections of content and also allow screen readers to jump to that content.
+- Identify the page language so that the screen reader can correctly pronounce the text.
 - Every relevant visual content must be pronounced by screen readers and in the same order as it appears visually.
 - Elements must be read as they appear visually. For example, a button should be read as a button and a visual link should be read as a link.
 - Changes on the page must be announced.
