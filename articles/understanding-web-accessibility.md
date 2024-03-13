@@ -22,6 +22,8 @@ These users may have limitations that decrease the precision of their arm and fi
 
 To cater to this audience on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate. To simulate their experience, try navigating through the content using the arrow keys on your keyboard. Use the tab key to focus on controllers, press enter to activate them, and use the space key to check something or to reposition the screen scroll. Be creative: fill out forms, click on links, don't avoid opening modals, and check the experience. When a modal opens, the focus should move inside it and should not move outside until it is closed.
 
+![a modal with the focus in the first control](https://github.com/jomarcardoso/accessibility/assets/27368585/d8da627d-4561-4c6b-877d-1558fd973e39)
+
 To achieve all these requirements for desktop pages, you have to care about:
 
 - Keeping the native visible focus or handling it if desired (Bootstrap do this, they replace the outline by box-shadow).
@@ -29,5 +31,15 @@ To achieve all these requirements for desktop pages, you have to care about:
 - Ensuring that when a modal opens, the focus moves inside it.
 - Implementing a focus trap inside the modal to keep the focus only there.
 - Focusing on the first element of new content when it is loaded without reloading the full page.
+
+For mobile devices, the main attention should be on the size of elements to reduce mis-touches, usually caused by aging or certain nerve diseases that cause shaking of limbs. There is no specific test for mobile devices that you can perform, but you should ensure that touchable elements have at least 44px of height and width, except when it is a link inside a text. Isolated links can be easily accessed without a user making a mistake.
+
+## 2.2 Visual impairment
+
+Visual impairment is a term used to describe any kind of vision loss, whether it's someone who cannot see at all or someone who has partial vision loss, such as clarity issues or color blindness.
+
+For those with color vision deficiency (color blindness), you can test by decreasing the saturation of the page using CSS filter: saturate(0). Everything on the page should still work without relying on colors. Pay attention to messages like form descriptions and errors; any text should be understandable without relying on color.
+
+Some people with vision loss use zoom to navigate on desktop pages and increase text size on mobile devices. Many of them also navigate using the keyboard since they can easily lose track of the cursor. To test their experience on a computer, apply 200% zoom, or on a smartphone, increase the text size. In both cases, scrolling should only occur in one direction.
 
 
