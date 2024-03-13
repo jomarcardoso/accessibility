@@ -43,19 +43,20 @@ For those with color vision deficiency (color blindness), you can test by decrea
 
 Some people with vision loss use zoom to navigate on desktop pages and increase text size on mobile devices. Many of them also navigate using the keyboard since they can easily lose track of the cursor. To test their experience on a computer, apply 200% zoom, or on a smartphone, increase the text size. In both cases, scrolling should only occur in one direction.
 
-The most complex case to attend in the web are the blind users. The only way to test them experience is using a screen reader and people with physical impairment use the keyboard to navigate in desktop devices. The main points to care about are:
+The most complex case to address in web accessibility is for blind users. The only way to test their experience is by using a screen reader and keyboard in desktop devices. The main points to consider are:
 
-- Every relevant visual content must be pronounced by screen readers and at the same order.
-- The elements must be read like its visual. A button must be read like a button and a visual link read like a link.
+- Every relevant visual content must be pronounced by screen readers and in the same order as it appears visually.
+- Elements must be read as they appear visually. For example, a button should be read as a button and a visual link should be read as a link.
 - Changes on the page must be announced.
-- Components with state must be read the currenct state. For example "accordion expanded" or "radio button checked".
+- Components with state must be read with the current state. For example, "accordion expanded" or "radio button checked".
 
-The web evoveld a lot with the new HTML atributes and semantic tags, but nowadays there is no way to have a full accessible page without the use of [ARIA attributes.](https://www.w3.org/TR/wai-aria-1.2/) The pages are not text documents like they initially was. They bring a bunch of no textual content, like floating menus, pages that does not reload, modals and tooltips that appear upper the else content, and everything that human creative can create. The W3C WAI ARIA attributes brings atributes like "role" that change the semantic of the native element or create a more specific meaning, and can do this because do not need to wait specification of the HTML evolve, they can walk together. The other ARIA attributes started with "aria-" complement with pieces of information to screen readers like:
+The web has evolved significantly with the introduction of new HTML attributes and semantic tags. However, nowadays, it's challenging to have a fully accessible page without the use of [ARIA attributes](https://www.w3.org/TR/wai-aria-1.2/). Web pages are no longer just text documents; they include a variety of non-textual content such as floating menus, pages that do not reload, modals, tooltips, and more. The W3C WAI ARIA attributes, such as the "role" attribute, can change the semantic meaning of native elements or provide a more specific meaning. They can do this without having to wait for the HTML specification to evolve, allowing them to progress together. Other ARIA attributes, prefixed with "aria-", provide additional information to screen readers, such as:
 
-- `aria-hidden`: to not read
-- `aria-label`: a message to read that complement the experience
-- `aria-expaded`: shows that the item has a menu open
+- `aria-hidden`: to indicate that an element should not be read
+- `aria-label`: to provide a message to be read that complements the experience
+- `aria-expanded`: to indicate that an item has an open menu
 
-The easy way to create an accessible page for screen readers is to use semantic native elements to the maximum and only go to custom components when you or your company be ready to spend a lot of effort to make it better and event accessible. Elements like `select` also knowed like "combobox" is a native accessible element with all the features to navigate and be read by screen readers. Whether your team even want to make these complex components I recommend you to follow the official [W3C patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) with instructions and examples of components to follow.
+The easiest way to create an accessible page for screen readers is to use native semantic elements as much as possible. Only use custom components when you or your company are prepared to invest significant effort into ensuring they are accessible. Elements like `select`, also known as "combobox", are native accessible elements with all the necessary features for navigation and reading by screen readers. If your team decides to create these complex components, I recommend following the official [W3C patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) with instructions and examples of accessible components to follow.
+
 
 
