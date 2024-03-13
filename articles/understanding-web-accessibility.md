@@ -22,7 +22,8 @@ These users may have limitations that decrease the precision of their arm and fi
 
 To cater to this audience on desktop pages, we need to avoid the necessity of using a cursor and allow navigation through buttons using either the keyboard or any other assistive technology. Users should be able to scroll through all content and access controllers such as links, buttons, and inputs using the keyboard. Elements in focus must be highlighted properly so that users know what they will activate. To simulate their experience, try navigating through the content using the arrow keys on your keyboard. Use the tab key to focus on controllers, press enter to activate them, and use the space key to check something or to reposition the screen scroll. Be creative: fill out forms, click on links, don't avoid opening modals, and check the experience. When a modal opens, the focus should move inside it and should not move outside until it is closed.
 
-![a modal with the focus in the first control](https://github.com/jomarcardoso/accessibility/assets/27368585/d8da627d-4561-4c6b-877d-1558fd973e39)
+![a modal with the focus in the first control](https://github.com/jomarcardoso/accessibility/assets/27368585/b890d702-d1d8-438f-ab1e-1736d27f34d0)
+
 
 To achieve all these requirements for desktop pages, you have to care about:
 
