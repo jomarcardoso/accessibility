@@ -43,7 +43,7 @@ For those with color vision deficiency (color blindness), you can test by decrea
 
 Some people with vision loss use zoom to navigate on desktop pages and increase text size on mobile devices. Many of them also navigate using the keyboard since they can easily lose track of the cursor. To test their experience on a computer, apply 200% zoom, or on a smartphone, increase the text size. In both cases, scrolling should only occur in one direction.
 
-The most complex case to attend in the web are the blind users. The only way to test them experience is using a screen reader. 
+The most complex case to attend in the web are the blind users. The only way to test them experience is using a screen reader and people with physical impairment use the keyboard to navigate in desktop devices. The main points to care about are:
 
 - Every relevant visual content must be pronounced by screen readers and at the same order.
 - The elements must be read like its visual. A button must be read like a button and a visual link read like a link.
