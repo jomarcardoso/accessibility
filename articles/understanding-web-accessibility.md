@@ -67,7 +67,7 @@ The easiest way to create an accessible page for screen readers is to use native
 
 ### 2.3 Intellectual disability
 
-Intellectual disabilities, like other disabilities, come in many forms. Users with low cognition require simple language and them erros must be clearly present to them to fix it at best way. Those with attention disorders should not be interrupted, so nothing should occur without their command, whether it's a click, touch, or button press. In all cases, it's also important to avoid creating overly long paragraphs, as they can cause confusion when transitioning to the next line. The W3C recommends a maximum of 200 characters per line.
+Intellectual disabilities, like other disabilities, come in many forms. Users with low cognition require simple language and them erros must be clearly present to them to fix it at best way. Those with attention disorders should not be interrupted, so nothing should occur without their command, whether it's a click, touch, or button press. In all cases, it's also important to avoid creating overly long paragraphs, as they can cause confusion when transitioning to the next line. [The W3C recommends](https://www.w3.org/TR/WCAG21/#visual-presentation) a maximum of 80 characters per line and 1.5 of line height.
 
 There is no way to simulate a mental disorder, but you can assess the general experience on your website using a heat map to identify areas where users may make mistakes. A/B tests and Likert scales can also be used to gather more information about the user experience on your website.
 
