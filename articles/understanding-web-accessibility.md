@@ -58,5 +58,11 @@ The web has evolved significantly with the introduction of new HTML attributes a
 
 The easiest way to create an accessible page for screen readers is to use native semantic elements as much as possible. Only use custom components when you or your company are prepared to invest significant effort into ensuring they are accessible. Elements like `select`, also known as "combobox", are native accessible elements with all the necessary features for navigation and reading by screen readers. If your team decides to create these complex components, I recommend following the official [W3C patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) with instructions and examples of accessible components to follow.
 
+| Edge vanilla datepicker | Custom W3C datepicker example |
+| ----------------------- | ----------------------------- |
+| ![native Edge datepicker open](https://github.com/jomarcardoso/accessibility/assets/27368585/5a3c9017-3fb3-4219-986b-b5febafea5a5) | ![custom W3C datepicker open](https://github.com/jomarcardoso/accessibility/assets/27368585/c98e2767-7488-4a44-af80-186f5c3efad5) |
+
+
+
 
 
