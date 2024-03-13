@@ -50,9 +50,12 @@ The most complex case to attend in the web are the blind users. The only way to 
 - Changes on the page must be announced.
 - Components with state must be read the currenct state. For example "accordion expanded" or "radio button checked".
 
-The web evoveld a lot with the new TAGS
+The web evoveld a lot with the new HTML atributes and semantic tags, but nowadays there is no way to have a full accessible page without the use of [ARIA attributes.](https://www.w3.org/TR/wai-aria-1.2/) The pages are not text documents like they initially was. They bring a bunch of no textual content, like floating menus, pages that does not reload, modals and tooltips that appear upper the else content, and everything that human creative can create. The W3C WAI ARIA attributes brings atributes like "role" that change the semantic of the native element or create a more specific meaning, and can do this because do not need to wait specification of the HTML evolve, they can walk together. The other ARIA attributes started with "aria-" complement with pieces of information to screen readers like:
 
-Nowadays there is no way to have a full accessible page without the use of [ARIA attributes.](https://www.w3.org/TR/wai-aria-1.2/) 
+- `aria-hidden`: to not read
+- `aria-label`: a message to read that complement the experience
+- `aria-expaded`: shows that the item has a menu open
+
 
 
 
