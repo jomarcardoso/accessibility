@@ -79,4 +79,7 @@ There is no way to simulate a mental disorder, but you can assess the general ex
 
 This audience is particularly impacted on streaming websites, educational platforms, and social media, especially when it comes to videos and songs. Subtitles are essential for videos, similar to providing alternative text for graphics. Likewise, for songs often used on educational websites, especially for language learning, there must be a way to complete the course without relying on hearing.
 
+## Conclusion
+
+This article did not cover all possible impairments that affect web users. Many are caused by aging, while others may be temporary, resulting from surgery or accidents. However, you can continue to study disabilities and the challenges faced by people using the web to better accommodate them. Whether you start learning about accessibility through practice or studying theory, I hope this article helped you improve your work or progress in your study of web accessibility.
 
