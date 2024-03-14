@@ -42,7 +42,7 @@ Visual impairment is a term used to describe any kind of vision loss, whether it
 
 For those with color vision deficiency (color blindness), you can simulate their experience by decreasing the saturation and contrast of the page using CSS `filter: saturate(0) contrast(.2)`. While this may be uncomfortable to view, it allows you to experience the page without relying on colors. Pay attention to messages like form descriptions and errors; all text should be understandable without relying on color. However, this experiment of decreasing the contrast and saturation is only for understanding the experience of users with color blindness. Do not apply this in your daily contrast validation, instead use tools to check the contrast and follow the [minimum contrast recommended by the WCAG](https://www.w3.org/TR/WCAG21/#contrast-minimum).
 
-![image](https://github.com/jomarcardoso/accessibility/assets/27368585/8bcff324-cf6d-4019-a406-39cbd6cdae08)
+![buttons with the same background but different text color to compare the contrast](https://github.com/jomarcardoso/accessibility/assets/27368585/8bcff324-cf6d-4019-a406-39cbd6cdae08)
 
 Some people with vision loss use zoom to navigate on desktop pages and increase text size on mobile devices. Many of them also navigate using the keyboard since they can easily lose track of the cursor. To test their experience on a computer, apply 200% zoom, or on a smartphone, increase the text size. In both cases, scrolling should only occur in one direction.
 
