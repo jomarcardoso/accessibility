@@ -1,6 +1,6 @@
 # Understanding Web accessibility
 
-With the evolution of the web, many features have been added, and the way to develop a website today is not the same as it was 10 years ago, much less when the web started. These many years of enhancement have made the web great but also hard to learn everything that has been present since its beginning in 1991. It is understandable that courses skip over all this knowledge and go directly to a framework, allowing students to quickly start working. This approach is fair, but at some point, developers must cover this content to become complete professionals. I hope that this article serves as a step back to understand web accessibility before following any rules to build your accessible websites.
+With the evolution of the web, many features have been added, and the way to develop a website today is not the same as it was 10 years ago, much less when the web started. These many years of enhancement have made the web great but also hard to learn everything that has been present since its beginning in 1991. It is understandable that courses skip over all this content and go directly to a framework, allowing students to quickly start working. This approach is fair, but developers must cover this knowledge to become complete professionals. I hope that this article serves as a step back to understand web accessibility before following any rules to build your accessible websites.
 
 ## 1. Introduction
 
