@@ -52,6 +52,7 @@ The most complex case to address in web accessibility is for blind users. The on
 - Elements must be read as they appear visually. For example, a button should be read as a button and a visual link should be read as a link.
 - Changes on the page must be announced.
 - Components with state must be read with the current state. For example, "accordion expanded" or "radio button checked".
+- Provide text descriptions for images, charts, icons, and any other content that conveys relevant information.
 
 The web has evolved significantly with the introduction of new HTML attributes and semantic tags. However, nowadays, it's challenging to have a fully accessible page without the use of [ARIA attributes](https://www.w3.org/TR/wai-aria-1.2/). Web pages are no longer just text documents; they include a variety of non-textual content such as floating menus, pages that do not reload, modals, tooltips, and more. The W3C WAI ARIA attributes, such as the "role" attribute, can change the semantic meaning of native elements or provide a more specific meaning. They can do this without having to wait for the HTML specification to evolve, allowing them to progress together. Other ARIA attributes, prefixed with "aria-", provide additional information to screen readers, such as:
 
@@ -59,7 +60,7 @@ The web has evolved significantly with the introduction of new HTML attributes a
 - `aria-label`: to provide a message to be read that complements the experience
 - `aria-expanded`: to indicate that an item has an open menu
 
-The easiest way to create an accessible page for screen readers is to use native semantic elements as much as possible. Only use custom components when you or your company are prepared to invest significant effort into ensuring they are accessible. Elements like `select`, also known as "combobox", are native accessible elements with all the necessary features for navigation and reading by screen readers. If your team decides to create these complex components, I recommend following the official [W3C patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) with instructions and examples of accessible components to follow.
+The easiest way to create an accessible page for screen readers is to use native semantic tags and attributes, such as title, type, for, etc., as much as possible. Only use custom components when you or your company are prepared to invest significant effort into ensuring they are accessible. Elements like `select`, also known as "combobox", are native accessible elements with all the necessary features for navigation and reading by screen readers. If your team decides to create these complex components, I recommend following the official [W3C patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) with instructions and examples of accessible components to follow.
 
 | Edge vanilla datepicker | Custom W3C datepicker example |
 | ----------------------- | ----------------------------- |
@@ -71,5 +72,8 @@ Intellectual disabilities, like other disabilities, come in many forms. Users wi
 
 There is no way to simulate a mental disorder, but you can assess the general experience on your website using a heat map to identify areas where users may make mistakes. A/B tests and Likert scales can also be used to gather more information about the user experience on your website.
 
+### 2.4 Hearing deficiency
+
+The main consideration for this audience is on streaming websites and social media, especially for videos and songs. Similar to providing alternative text for graphics, subtitles are necessary for videos. Similarly, for songs commonly used on websites for teaching, especially languages, there must be a way to complete the course without relying on hearing.
 
 
