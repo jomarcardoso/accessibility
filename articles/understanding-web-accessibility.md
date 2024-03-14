@@ -24,7 +24,6 @@ To cater to this audience on desktop pages, we need to avoid the necessity of us
 
 ![a modal with the focus in the first control](https://github.com/jomarcardoso/accessibility/assets/27368585/b890d702-d1d8-438f-ab1e-1736d27f34d0)
 
-
 To achieve all these requirements for desktop pages, you have to care about:
 
 - Keeping the native visible focus or handling it if desired (Bootstrap do this, they replace the outline by box-shadow).
@@ -35,11 +34,15 @@ To achieve all these requirements for desktop pages, you have to care about:
 
 For mobile devices, the main attention should be on the size of elements to reduce mis-touches, usually caused by aging or certain nerve diseases that cause shaking of limbs. There is no specific test for mobile devices that you can perform, but you should ensure that touchable elements have at least 44px of height and width, except when it is a link inside a text. Isolated links can be easily accessed without a user making a mistake.
 
-### 2.2 Visual impairment
+Your text is mostly correct, but there are a few improvements that can be made for clarity and consistency. Here's a revised version:
+
+### 2.2 Visual Impairment
 
 Visual impairment is a term used to describe any kind of vision loss, whether it's someone who cannot see at all or someone who has partial vision loss, such as clarity issues or color blindness.
 
-For those with color vision deficiency (color blindness), you can test by decreasing the saturation of the page using CSS filter: saturate(0). Everything on the page should still work without relying on colors. Pay attention to messages like form descriptions and errors; any text should be understandable without relying on color.
+For those with color vision deficiency (color blindness), you can simulate their experience by decreasing the saturation and contrast of the page using CSS `filter: saturate(0) contrast(.2)`. While this may be uncomfortable to view, it allows you to experience the page without relying on colors. Pay attention to messages like form descriptions and errors; all text should be understandable without relying on color. However, this experiment of decreasing the contrast and saturation is only for understanding the experience of users with color blindness. Do not apply this in your daily contrast validation, instead use tools to check the contrast and follow the [minimum contrast recommended by the WCAG](https://www.w3.org/TR/WCAG21/#contrast-minimum).
+
+![image](https://github.com/jomarcardoso/accessibility/assets/27368585/8bcff324-cf6d-4019-a406-39cbd6cdae08)
 
 Some people with vision loss use zoom to navigate on desktop pages and increase text size on mobile devices. Many of them also navigate using the keyboard since they can easily lose track of the cursor. To test their experience on a computer, apply 200% zoom, or on a smartphone, increase the text size. In both cases, scrolling should only occur in one direction.
 
@@ -72,8 +75,8 @@ Intellectual disabilities, like other disabilities, come in many forms. Users wi
 
 There is no way to simulate a mental disorder, but you can assess the general experience on your website using a heat map to identify areas where users may make mistakes. A/B tests and Likert scales can also be used to gather more information about the user experience on your website.
 
-### 2.4 Hearing deficiency
+### 2.4 Hearing impairment
 
-The main consideration for this audience is on streaming websites and social media, especially for videos and songs. Similar to providing alternative text for graphics, subtitles are necessary for videos. Similarly, for songs commonly used on websites for teaching, especially languages, there must be a way to complete the course without relying on hearing.
+This audience is particularly impacted on streaming websites, educational platforms, and social media, especially when it comes to videos and songs. Subtitles are essential for videos, similar to providing alternative text for graphics. Likewise, for songs often used on educational websites, especially for language learning, there must be a way to complete the course without relying on hearing.
 
 
