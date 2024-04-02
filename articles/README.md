@@ -5,4 +5,4 @@
 ## Articles in Brazilian Portuguese
 
 - [Entendendo as Diferenças Funcionais na Acessibilidade Para a Web](./the-users-pt.md)
-- [O Desenho Universal para a Acessibilidade](./accessibility-and-universal-design.md)
+- [O Desenho Universal para a Acessibilidade](./accessibility-and-universal-design-pt.md)
