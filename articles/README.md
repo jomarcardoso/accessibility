@@ -1,6 +1,7 @@
 # My article about Web acessbility
 
 - [Understanding Web accessibility](./understanding-web-accessibility.md)
+- [Universal Design in Web accessibility](accessibility-and-universal-design.md)
 
 ## Articles in Brazilian Portuguese
 
