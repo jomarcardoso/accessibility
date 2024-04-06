@@ -18,13 +18,14 @@ Thus, the use of Universal Design means a big step towards an increasingly inclu
 
 There are seven principles of Universal Design [12]:
 
-Equal use possibilities: can be used by any user under equivalent conditions.
-Flexibility of use: caters to a wide range of individuals, individual preferences and abilities.
-Simple and intuitive use: easy to understand, regardless of the user's experience, knowledge, language skills or concentration level.
-Perceptible information: effectively provides the necessary information, whatever the existing environmental/physical conditions or the user's sensory capabilities.
-Error tolerance: minimizes risks and negative consequences resulting from accidental or unintentional actions.
-Minimal physical effort: can be used efficiently and comfortably, with minimal fatigue.
-Dimension and space for use and interaction: adequate space and dimension for interaction, handling and use, regardless of the user's height, mobility or posture.
+- **Equal use possibilities:** can be used by any user under equivalent conditions.
+- **Flexibility of use:** caters to a wide range of individuals, individual preferences and abilities.
+- **Simple and intuitive use:** easy to understand, regardless of the user's experience, knowledge, language skills or concentration level.
+- **Perceptible information:** effectively provides the necessary information, whatever the existing environmental/physical conditions or the user's sensory capabilities.
+- **Error tolerance:** minimizes risks and negative consequences resulting from accidental or unintentional actions.
+- **Minimal physical effort:** can be used efficiently and comfortably, with minimal fatigue.
+- **Dimension and space for use and interaction:** adequate space and dimension for interaction, handling and use, regardless of the user's height, mobility or posture.
+
 When applying the principles of Universal Design to the web, it is concluded that the objects and environments used on websites must be designed to be used, without modification or external assistance, by as many people as possible, regardless of their motor, visual, auditory, tactile or any other condition that may make it difficult to complete a task.
 
 Objects and environments are transmitted on the Internet through codes, which must adapt to certain standards to allow both navigation controls and content to be compatible with the wide variety of web access devices, and with all the diversity of the Internet. assistive technology used by people with disabilities and reduced mobility. Therefore, all websites must be built according to standards, so that, when reused at scale, they do not pose access barriers for all or part of society [13].
